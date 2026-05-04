@@ -62,38 +62,6 @@
     font-family: 'Inter', sans-serif;
   }
 
-  .text-navy {
-    color: #151e3d;
-  }
-
-  .bg-navy {
-    background-color: #151e3d;
-  }
-
-  .text-beige {
-    color: #f5f0eb;
-  }
-
-  .bg-beige {
-    background-color: #f5f0eb;
-  }
-
-  .text-green {
-    color: #4a7c59;
-  }
-
-  .bg-green {
-    background-color: #4a7c59;
-  }
-
-  .text-red {
-    color: #c0392b;
-  }
-
-  .bg-red {
-    background-color: #c0392b;
-  }
-
   .btn-primary {
     @apply inline-flex items-center justify-center px-6 py-3.5 rounded-full font-sans font-semibold text-sm tracking-wide transition-all duration-300;
     background-color: #151e3d;

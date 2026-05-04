@@ -2,19 +2,19 @@ import { useEffect, useRef, useState } from 'react';
 import { Award, Users, MapPin, Clock, Star, CheckCircle2 } from 'lucide-react';
 
 const stats = [
-  { value: '30+', label: 'Years Experience', icon: Clock },
-  { value: '1000+', label: 'Families Helped', icon: Users },
-  { value: 'TN & KY', label: 'Licensed In Both', icon: MapPin },
-  { value: 'ABR, CRS', label: 'Top Designations', icon: Award },
+  { value: 'Since 1993', label: 'Full-Time REALTOR', icon: Clock },
+  { value: 'Broker', label: 'Licensed Since 1996', icon: Award },
+  { value: 'TN & KY', label: 'Dual-State Licensed', icon: MapPin },
+  { value: 'ABR · CRS · GRI', label: 'Top Designations', icon: Users },
 ];
 
 const trustPoints = [
-  'Deep knowledge of Clarksville neighborhoods and Fort Campbell timelines',
-  'Specialized in VA loans, REO/foreclosure, and short-sale properties',
-  'Fast response time — we prioritize every inquiry',
-  'Personalized service for every buyer, seller, and investor',
-  'Board member of Clarksville Association of REALTORS',
-  'Community Realtor Committee at Fort Campbell since 1986',
+  'Full-time REALTOR since 1993, licensed broker since 1996',
+  'Licensed in both Tennessee and Kentucky for seamless cross-state moves',
+  'ABR, CRS, and GRI designations — the highest tier of REALTOR credentials',
+  'Three-year Board of Directors member, Clarksville Association of REALTORS',
+  'Chaired Ethics, Grievance, and Community Realtor committees',
+  'Army veteran serving Fort Campbell military families with PCS expertise',
 ];
 
 export default function About() {
@@ -49,8 +49,8 @@ export default function About() {
                 <br />
                 <span className="text-green">Expertise & Trust</span>
               </h2>
-              <p className="font-sans text-beige/70 text-base sm:text-lg leading-relaxed mb-8">
-                Betty and Rudy Valrey have served the Clarksville community and Fort Campbell military families for over three decades. Born from military roots — Rudy is an "Army brat" who served himself — we understand the urgency and complexity of PCS moves.
+              <p className="font-sans text-beige/80 text-base sm:text-lg leading-relaxed mb-8">
+                Betty and Rudy Valrey have helped Clarksville families and Fort Campbell military households buy and sell homes since 1993. Born in Japan and a veteran of both the Air Force Reserve and the Army, Rudy brings a UC Berkeley economics background and real military experience to every PCS, first-time purchase, and sale.
               </p>
 
               <div className="space-y-3 mb-8">
@@ -94,7 +94,7 @@ export default function About() {
                   ))}
                 </div>
                 <p className="font-sans text-xs text-navy/70 leading-relaxed">
-                  "We will always do our best for our clients. We handle every question in a timely manner."
+                  "We will always do our best for our clients. We will always try and handle every question or concern in a timely manner."
                 </p>
                 <p className="font-sans text-xs font-semibold text-navy mt-2">— Rudy Valrey</p>
               </div>
